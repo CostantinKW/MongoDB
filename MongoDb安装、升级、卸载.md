@@ -34,7 +34,7 @@ systemctl is-enabled mongod.service  #检查服务是否自启动
 - 卸载mongo
 
 - 停止mongodb  
-    
+  
     ```
     sudo service mongod stop
     ```
@@ -42,7 +42,7 @@ systemctl is-enabled mongod.service  #检查服务是否自启动
     
     
 - 删除软件包  
-    
+  
     ```
     sudo apt-get purge mongodb-org
     ```
